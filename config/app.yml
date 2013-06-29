@@ -1,0 +1,12 @@
+default: &default
+  name: "roulettebot"
+  server: "localhost"
+production:
+  <<: *default
+  server: "irc.freenode.net"
+development:
+  <<: *default
+  name: "roulettebot_development"
+test:
+  <<: *default
+  name: "roulettebot_test"
