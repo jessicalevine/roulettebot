@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Roulettebot::VERSION
   spec.authors       = ["Jordan Goldstein"]
   spec.email         = ["mrjordangoldstein@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Karma gambling IRC bot for #hackny}
+  spec.summary       = %q{An IRC bot that allows you to bet karma on the #hackny IRC"}
   spec.homepage      = ""
   spec.license       = "MIT"
 
